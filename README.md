@@ -1,6 +1,6 @@
 # Evoluent VerticalMouse D Driver
 
-This project provides a Linux driver for the **Evoluent VerticalMouse D** series. It allows you to remap mouse buttons to different actions and control them using a graphical user interface (GUI) or configuration file. The project was tested on Linux only and does not rely on official driver documentation, but rather on my own tests with the device.
+This project provides a Linux driver for the [**Evoluent VerticalMouse D** series](https://www.ergodirect.com/19308-evoluent-vmdm-vertical-mouse-d-medium-wired.html). It allows you to remap mouse buttons to different actions and control them using a graphical user interface (GUI) or configuration file. The project was tested on Linux only and does not rely on official driver documentation, but rather on my own tests with the device.
 
 ## Features
 - Remap mouse buttons (Top, Middle, Wheel, Bottom, Side Top, Side Bottom)
