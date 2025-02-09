@@ -1,0 +1,6 @@
+BTN_Top=KEY_LEFT
+BTN_Middle=KEY_RIGHT
+BTN_Wheel=0
+BTN_Bottom=KEY_RIGHT
+BTN_Side Top=KEY_FORWARD
+BTN_Side Bottom=KEY_BACK
