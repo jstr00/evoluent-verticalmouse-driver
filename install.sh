@@ -39,10 +39,9 @@ echo "Creating systemd service file..."
 cat > "$SERVICE_FILE" <<EOF
 [Unit]
 Description=Mouse Remap Service
-After=graphical.target
+After=usb.target
 
 [Service]
-# Pass the configuration file path as an environment variable if needed.
 Environment=CONFIG_FILE=$CONFIG_DIR/config.txt
 ExecStart=$INSTALL_BIN/mouse_remap -c $CONFIG_DIR/config.txt
 Restart=on-failure
